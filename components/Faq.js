@@ -20,7 +20,7 @@ const Faq = () => {
     </div>
       <div className='faq'>
 
-      <Accordion style={{ padding:"100px"}}>
+      <Accordion className="faq-top" style={{ padding:"100px"}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon  className='faq-icon'/>}
           aria-controls="panel1-content"
