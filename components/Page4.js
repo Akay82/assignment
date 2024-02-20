@@ -9,7 +9,7 @@ import Img6 from '../public/page4-6.png'
 import Img7 from '../public/page4-7.png'
 import Img8 from '../public/page4-8.png'
 import Img9 from '../public/page4-9.png'
-import Faq from './Faq'
+
 import './styles/Page4.css'
 
 const Page4 = () => {
@@ -69,7 +69,7 @@ const Page4 = () => {
 
     </div>
 
-    <Faq />
+    
 </>
   )
 }
