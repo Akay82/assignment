@@ -20,7 +20,7 @@ const Faq = () => {
     </div>
       <div className='faq'>
 
-      <Accordion className="faq-top" style={{ backgroundColor:"#121212", padding:"100px"}}>
+      <Accordion className="faq-top">
         <AccordionSummary
           expandIcon={<ExpandMoreIcon  className='faq-icon'/>}
           aria-controls="panel1-content"
@@ -35,7 +35,7 @@ const Faq = () => {
         </AccordionDetails>
       </Accordion>
 
-      <Accordion  style={{backgroundColor:"#121212", padding:"100px"}}>
+      <Accordion className="faq-top>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon className='faq-icon'/>}
           aria-controls="panel2-content"
@@ -50,7 +50,7 @@ const Faq = () => {
         </AccordionDetails>
       </Accordion>
 
-      <Accordion  style={{backgroundColor:"#121212", padding:"100px"}}>
+      <Accordion className="faq-top>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon className='faq-icon' />}
           aria-controls="panel3-content"
@@ -66,7 +66,7 @@ const Faq = () => {
         
       </Accordion>
 
-      <Accordion  style={{backgroundColor:"#121212", padding:"100px"}}>
+      <Accordion className="faq-top>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon  className='faq-icon'/>}
           aria-controls="panel3-content"
@@ -81,7 +81,7 @@ const Faq = () => {
         
       </Accordion>
 
-      <Accordion  style={{backgroundColor:"#121212", padding:"100px"}}>
+      <Accordion className="faq-top>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon  className='faq-icon'/>}
           aria-controls="panel3-content"
@@ -97,7 +97,7 @@ const Faq = () => {
       </Accordion>
 
 
-      <Accordion  style={{backgroundColor:"#121212", padding:"100px"}}>
+      <Accordion className="faq-top>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon className='faq-icon'/>}
           aria-controls="panel3-content"
