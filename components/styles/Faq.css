@@ -15,6 +15,11 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.faq-top {
+    background-color: #121212;
+    padding: 100px;
+}
+
 
 .faq-heading {
     padding-left: 10%;
