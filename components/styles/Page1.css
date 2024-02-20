@@ -1,0 +1,141 @@
+.page1 {
+    display: flex;
+    position: absolute;
+}
+
+.page1-left {
+    width: 720px;
+    margin-top: 130px;
+    margin-left: 130px;
+}
+
+p {
+    font-size: 40px;
+    color: #F78319;
+    font-weight: 700;
+    line-height: 2.5rem;
+}
+
+.page1-left-heading {
+    font-weight: 900;
+    font-size: 100px;
+    color: #FFFFFF;
+    line-height: 5.8rem;
+    margin-top: 25px;
+}
+
+.page1-left-btn {
+    margin-top: 60px;
+    height: 75px;
+    width: 280px;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 40px;
+    cursor: pointer;
+    border-radius: 25px;
+    border: double 2px transparent;
+    background-image: linear-gradient(black, black), radial-gradient(circle at top left, #F78319, #0A56F1);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
+
+.page1-left-btn:hover {
+    border: double 3px transparent;
+    color: black;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #F78319, #0A56F1);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
+
+.page1-img {
+    width: 720px;
+    align-items: center;
+}
+
+.page1-img img {
+    width: 568.94px;
+    height: 720px;
+}
+
+.page1-features {
+    width: 100%;
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 130px;
+    display: flex;
+    gap: 150px;
+}
+
+.page1-list {
+    font-size: 50px;
+    font-weight: 700;
+    color: #0A56F1;
+}
+
+.page1-bottom {
+    width: 1180px;
+    position: absolute;
+    margin-top: 930px;
+    margin-left: 130px;
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        width: 375px;
+        color: #121212;
+    }
+    .page1-left {
+        margin-left: 16px;
+        width: 190px;
+    }
+    .page1-left p {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 18px;
+    }
+    .page1-left-heading {
+        font-size: 28px;
+        line-height: 35px;
+        font-weight: 900;
+    }
+    .page1-left-btn {
+        width: 116px;
+        height: 30px;
+        font-size: 12px;
+        text-align: center;
+        padding: 3px;
+        margin-top: 12px;
+    }
+    .page1-img img {
+        margin-left: 0px;
+        width: 158px;
+        height: 200px;
+        margin-top: 124px;
+    }
+    .page1-features {
+        height: 19px;
+        width: 344px;
+        margin-top: 363px;
+    }
+    .page1-list {
+        font-size: 16px;
+        font-weight: 700;
+        margin-left: -110px;
+    }
+    .page1-bottom {
+        width: 343px;
+        height: 126px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        margin-top: 402px;
+        margin-left: 16px;
+    }
+}

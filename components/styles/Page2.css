@@ -1,0 +1,226 @@
+.box {
+    position: absolute;
+    margin-top: 1248px;
+    width: 1180px;
+    height: 897px;
+    border: 1px solid white;
+    margin-left: 130px;
+}
+
+.left-side {
+    margin-top: 0px;
+    height: 897px;
+    margin-left: 0px;
+    width: 100px;
+    border: 1px solid white;
+}
+
+.bottom-line {
+    margin-top: -100px;
+    height: 100px;
+    width: 1180px;
+    border: 1px solid white;
+}
+
+.right-line {
+    margin-top: -897px;
+    height: 897px;
+    margin-left: 1080px;
+    width: 100px;
+    border: 1px solid white;
+}
+
+.center-line {
+    height: 897px;
+    width: 1px;
+    background-color: white;
+    margin-left: 750px;
+    margin-top: -897px;
+}
+
+.page2-content {
+    position: absolute;
+}
+
+.page2-heading {
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: 700;
+    background: linear-gradient(to right, #F78319 0%, #0A56F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.page2-para {
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 150px;
+    margin-left: 180px;
+    line-height: 52px;
+}
+
+.page2-features {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 150px;
+}
+
+.page2-list {
+    display: flex;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 30px;
+    gap: 30px;
+}
+
+.page2-list img {
+    margin-top: -8px;
+}
+
+.page2-line {
+    position: relative;
+    margin-left: 40px;
+    width: 400px;
+    height: 2px;
+    background-image: linear-gradient(to right, #F78319, #0A56F1);
+}
+
+.bottom-line img {
+    width: 70px;
+    height: 70px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.right-line img {
+    width: 70px;
+    height: 70px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.page2-right-content {
+    width: 220px;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 30px;
+}
+
+.page2-right-heading {
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 20px;
+    background: linear-gradient(to right, #F78319 0%, #0A56F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.page2-right-text {
+    margin-top: -20px;
+    font-size: 22px;
+    color: white;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+.page2-image {
+    position: absolute;
+    margin-top: 2255px;
+    margin-left: 130px;
+    width: 1180px;
+    height: 705px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 375px) {
+    .box {
+        width: 370px;
+        height: 400px;
+        margin-top: 570px;
+        margin-left: 16px;
+    }
+    .left-side {
+        height: 400px;
+        width: 35px;
+    }
+    .center-line {
+        margin-top: -400px;
+        height: 400px;
+        margin-left: 250px;
+    }
+    .right-line {
+        margin-left: 368px;
+        margin-top: -401px;
+        height: 400px;
+        width: 35px
+    }
+    .bottom-line {
+        margin-top: -35px;
+        height: 35px;
+        width: 403px;
+    }
+    .page2-content {
+        margin-left: -120px;
+    }
+    .page2-heading {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    .page2-para {
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 50px;
+    }
+    .page2-features {
+        margin-top: 120px;
+        margin-left: 45px;
+    }
+    .page2-list {
+        font-size: 12px;
+        gap: 10px;
+        padding: 10px;
+    }
+    .page2-list img {
+        height: 17px;
+        width: 17px;
+        margin-top: -0px;
+    }
+    .page2-line {
+        width: 116px;
+    }
+    .bottom-line img {
+        padding: 6px;
+        padding-left: 5px;
+        height: 35px;
+        width: 35px;
+    }
+    .right-line img {
+        padding: 7px;
+        height: 35px;
+        width: 35px;
+    }
+    .page2-right-content {
+        width: 100px;
+        margin-left: 260px;
+        margin-top: 0;
+    }
+    .page2-right-heading {
+        margin-left: 20px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .page2-right-text {
+        font-size: 9px;
+        line-height: 10px;
+    }
+    .page2-image {
+        width: 350px;
+        height: 211px;
+        margin-top: 1000px;
+        margin-left: 16px;
+    }
+}

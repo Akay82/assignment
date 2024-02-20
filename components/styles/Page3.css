@@ -1,0 +1,211 @@
+.page3-heading {
+    margin-top: 3126px;
+    margin-left: 435px;
+    font-size: 75px;
+    font-weight: 700;
+    position: absolute;
+    background: linear-gradient(to right, #F78319 0%, #0A56F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.page3-box {
+    width: 1180px;
+    height: 900px;
+    border: 1px solid white;
+    position: absolute;
+    margin-top: 3306px;
+    margin-left: 130px;
+}
+
+.page3-center-line {
+    height: 899px;
+    width: 1px;
+    background-color: white;
+    margin-left: 730px;
+}
+
+.page3-bottom-line {
+    margin-left: 730px;
+    height: 1px;
+    background-color: white;
+    width: 449px;
+    margin-top: -150px;
+}
+
+.page3-bottom-center {
+    width: 1px;
+    height: 109px;
+    margin-left: 960px;
+    background-color: white;
+}
+
+.page3-bottom-line img {
+    height: 100px;
+    width: 100px;
+    margin-left: 60px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.page3-right-img img {
+    margin-top: -100px;
+    margin-left: 300px;
+    cursor: pointer;
+}
+
+.page3-right-content {
+    position: absolute;
+    width: 420px;
+    margin-left: 760px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 37px;
+    color: white;
+    margin-top: 50px;
+}
+
+.page3-left-image {
+    position: absolute;
+}
+
+.page3-left-image img {
+    height: 800px;
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.page3-technology {
+    position: absolute;
+    width: 1440px;
+    margin-top: 4336px;
+}
+
+.technology-all-content {
+    width: 765px;
+    margin-left: 565px;
+    margin-top: -550px;
+    text-align: center;
+}
+
+.technology-heading {
+    font-weight: 700;
+    font-size: 30px;
+    color: #F78319;
+}
+
+.technology-content {
+    margin-top: 80px;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+
+.technology-btn {
+    margin-top: 60px;
+    height: 75px;
+    width: 570px;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 40px;
+    cursor: pointer;
+    border-radius: 25px;
+    border: double 2px transparent;
+    background-image: linear-gradient(black, black), radial-gradient(circle at top left, #F78319, #0A56F1);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    position: relative;
+    z-index: 1;
+    margin-left: 100px;
+}
+
+.technology-btn:hover {
+    border-radius: 25px;
+    border: double 3px transparent;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #F78319, #0A56F1);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    color: black;
+}
+
+@media screen and (max-width: 375px) {
+    .page3-heading {
+        margin-top: 1260px;
+        font-size: 28px;
+        width: 276px;
+        margin-left: 100px;
+    }
+    .page3-box {
+        width: 342px;
+        height: 262px;
+        margin-top: 1330px;
+        margin-left: 16px;
+    }
+    .page3-left-image img {
+        height: 204px;
+        width: 170px;
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+    .page3-center-line {
+        height: 261px;
+        margin-left: 200px;
+        margin-top: 0px;
+    }
+    .page3-right-content {
+        font-size: 7px;
+        line-height: 10px;
+        width: 122px;
+        margin-left: 214px;
+        margin-top: 20px;
+    }
+    .page3-bottom-line {
+        width: 140px;
+        margin-left: 200px;
+        margin-top: -80px;
+    }
+    .page3-bottom-center {
+        height: 38px;
+        margin-left: 275px;
+    }
+    .page3-bottom-line img {
+        width: 29px;
+        height: 29px;
+        margin-left: 27px;
+        padding-top: 5px;
+    }
+    .page3-right-img img {
+        margin-left: 90px;
+        margin-top: -28px;
+    }
+    .page3-technology {
+        width: 375px;
+        margin-top: 1630px;
+        height: 164px;
+    }
+    .technology-heading {
+        font-size: 8px;
+        line-height: 12px;
+        width: 184px;
+        margin-top: 400px;
+        margin-left: -400px;
+    }
+    .technology-content {
+        font-weight: 600;
+        font-size: 7px;
+        width: 184px;
+        margin-left: -400px;
+        margin-top: 10px;
+    }
+    .technology-btn {
+        width: 150px;
+        height: 25px;
+        font-size: 8px;
+        padding: 4px 0px;
+        margin-left: -385px;
+        margin-top: 10px;
+    }
+}
